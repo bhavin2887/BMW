@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        //  Add host of your download URL in below line.
+        //   ie. if url is  "https://www.google.com/search?source=...."
+        //   then just add "www.google.com"
+        <domain includeSubdomains="true">60.254.38.13</domain>
+    </domain-config>
+</network-security-config>
